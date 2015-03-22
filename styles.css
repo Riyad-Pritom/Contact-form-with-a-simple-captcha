@@ -1,0 +1,97 @@
+/* GOOGLE Fonts start here */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Courgette);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+@import url(http://fonts.googleapis.com/css?family=Dosis:600);
+/* Google fonts end here */
+
+body {
+   padding: 0px;
+   margin: 40px;
+   background: #E6E6E6;
+}
+
+h1.cfheader {color: white; font-family: Courgette; padding-top:30px; text-align:center; font-size: 48px;}
+
+.contactform {
+   background: #5CB8E6;
+   margin: -40px;
+}
+
+/* ==============  CONTACT FORM CODE STARTS HERE ============== */
+
+form {
+   background: #E6E6E6;
+   margin: 0px;
+   width: auto;
+   padding: 0px;
+   border: 1px solid gray;
+}
+
+fieldset {
+   background: #5CB8E6;
+   padding: 40px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   margin-left: 270px;
+   margin-right: 270px;
+   margin-bottom: 50px;
+   margin-top: 20px;
+   border: 1px solid gray;
+   border-radius: 3px;
+   font-size: 18px;
+   font-family: Courgette;
+   font-weight: normal;
+ }
+
+label {
+   display:block;
+   float: left;
+   width: 180px;
+   margin-top: 26px;
+   color: white;
+}
+
+input[type=text] {
+   width: 300px;
+   height: 25px;
+}
+
+input[type=email] {
+   width: 300px;
+   height: 25px;
+}
+
+textarea {
+   width: 500px;
+   height: 150px;
+}
+
+input[type=submit] {
+   width: 505px;
+   height: 35px;
+   margin-left: 180px;
+   margin-top: 3px;
+   font-size: 18px;
+   font-family: Ubuntu;
+   color: white;
+   background: #33FF33;
+   border: 0;
+}
+
+input[type=reset] {
+   width: 505px;
+   height: 35px;
+   margin-left: 180px;
+   margin-top: 3px;
+   font-size: 18px;
+   font-family: Ubuntu;
+   color: white;
+   background: #FF3333;
+   border: 0;
+}
+
+/* ==============  CONTACT FORM CODE ENDS HERE ============== */
+
+/* ==============  SCRIPT BY RIYAD PRITOM || facebook.com/riyadpritom ============== */

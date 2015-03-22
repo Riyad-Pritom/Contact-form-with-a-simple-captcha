@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<link rel="stylesheet" type="text/css" href="styles.css"> 																					<!--  Connects with external stylesheet -->
+
+<html>
+<body>
+
+<div class="contactform">                                                                                                                                  <!-- div starts-->
+<h1 class="cfheader"> <a id="contact"> Contact Us </a> </h1>                                                                         <!--  Header Codes -->
+<form method="post" action="contact.php">                                                                                                       <!--  Form Codes Start-->
+<fieldset>
+<label> Name: </label> <br>
+<input type="text" name="name" required pattern="[a-zA-Z0-9]+" placeholder="Enter your name"> <br>
+<label> Email: </label> <br>
+<input type="email" name="email" required placeholder="ex: me@example.com" pattern="*@-.-"> <br>
+<label> Phone Number: </label> <br> 
+<input type="text" name="phone" placeholder="Enter your phone number"> <br>
+<label> Subject: </label> <br>
+<input type="text" name="subject" required placeholder="Enter a subject"> <br>
+<label> Message: </label><br> 
+<textarea name="comment" rows="5" cols="40" placeholder="Feel free to say..."></textarea> <br>
+<label> What is 5+3 =  </label> <br>
+<input type="text" name="math" required placeholder="Enter your answer" autocomplete="off"> <br>
+<input type="submit" name="submit" value="Submit">
+<input type="reset" name="reset" value="Reset">	
+</fieldset>
+</form> 																																								<!--  Form Codes End-->
+</div> 																																									<!-- div ends-->
+
+
+</body>
+</html>
+
+<!--SCRIPT BY RIYAD PRITOM || facebook.com/riyadpritom -->
